@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Amenities &amp; Services - Anslem Hotel</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f2a60d",
+                        "primary-hover": "#d48f0a",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#221c10",
+                        "surface-dark": "#342b18",
+                        "surface-darker": "#2a2315",
+                        "text-muted": "#cbb790",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#111418] dark:text-white overflow-x-hidden w-full">
+<div class="layout-container flex h-full grow flex-col min-h-screen">
+<!-- Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#493c22] px-4 py-3 md:px-10 lg:px-20 bg-[#231d10] sticky top-0 z-50">
+<div class="flex items-center gap-4 text-white">
+<div class="size-8 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">diamond</span>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Anslem Hotel</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-white hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Rooms</a>
+<a class="text-white hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Dining</a>
+<a class="text-primary text-sm font-medium leading-normal border-b-2 border-primary pb-0.5" href="#">Amenities</a>
+<a class="text-white hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary hover:bg-primary-hover transition-colors text-[#231d10] text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Book Now</span>
+</button>
+</div>
+</header>
+<!-- Main Content Wrapper -->
+<div class="flex flex-1 justify-center py-5 px-4 md:px-20 lg:px-40">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<!-- Hero Section -->
+<div class="@container mb-8">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-8 relative overflow-hidden group" data-alt="Luxury hotel lobby with gold accents and dark marble floors" style='background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDEEbZuF1mmpVWY_7uSwRtIOr9gAk7399NvI0Tpv0PfTKNoEqKyyMlcClb2oO_q-h2YpUsW5Asb5MJZyPVNNQ6BOBgJhSrVAXbOLzGth2XNmEhrR8bXvQXr8lCUkZCdlxEGZ8wiXwKjTm_TRJLjpito0u-TjTnyMelrwDF-Hv53swztvUbulDIk0PwlegjqS6MKfSX6sdPqK7UdamoxjF1UWXtiJp0HcpBv0lsvewQYd6AGegOV1qh1nlyii6V5LmWHFVTJWWMhsJC9");'>
+<div class="flex flex-col gap-2 text-center relative z-10 animate-fade-in-up">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                    World-Class Amenities
+                                </h1>
+<h2 class="text-white text-base font-normal leading-normal @[480px]:text-lg @[480px]:font-normal max-w-lg mx-auto">
+                                    Immerse yourself in a world of refined luxury, where every detail is curated for your comfort and pleasure.
+                                </h2>
+</div>
+<button class="relative z-10 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary hover:bg-primary-hover transition-colors text-[#231d10] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base">
+<span class="truncate">Explore Services</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Section: Personalized Services -->
+<div class="flex flex-col gap-4 mb-12">
+<h2 class="text-white text-[28px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 border-l-4 border-primary ml-4">Personalized Services</h2>
+<!-- Card: Concierge (Left Text, Right Image) -->
+<div class="p-4">
+<div class="flex flex-col md:flex-row items-stretch justify-between gap-6 rounded-lg bg-surface-dark p-6 shadow-[0_0_4px_rgba(0,0,0,0.1)] hover:shadow-[0_0_15px_rgba(242,166,13,0.1)] transition-shadow duration-300">
+<div class="flex flex-[2_2_0px] flex-col justify-center gap-6">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined">concierge</span>
+<span class="text-sm font-bold tracking-widest uppercase">At Your Service</span>
+</div>
+<h3 class="text-white text-2xl font-bold leading-tight">24/7 Concierge</h3>
+<p class="text-text-muted text-base font-normal leading-relaxed">
+                                        Our dedicated team is available around the clock to arrange tickets, transportation, and personalized experiences tailored just for you. From securing exclusive reservations to planning day trips, we handle the details.
+                                    </p>
+</div>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-[#493c22] hover:bg-[#5e4d2b] transition-colors text-white text-sm font-bold w-fit gap-2 group">
+<span>Contact Concierge</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="w-full md:w-1/3 bg-center bg-no-repeat aspect-video md:aspect-auto bg-cover rounded-lg flex-1 min-h-[250px]" data-alt="Elegant hotel concierge desk with golden lighting" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBX5W2BZNKJAi8P0nveLuVK25RgN_EHCo93o_HJ9cR1bYz5JXL7zm_VcSP9HqHd7N7HcEihfCXzdJ-rysNkxJ92bMPMtaI-UC5ii9bGI6oghBxKagbhoUWtAb7N43CUFp0TZFj2hXmJWzFWwC7N2k_RckaHc0Lo004OoWx9-0HKsnJQB04VATmQYpFlOGHJIbXiWwGMuAU5A-5M-Nk2jPtBbGeHtmey89SWIzLTpsLlhKpKx1HPiZnR0j1GyazRDBSgr1vscyJoYrdk");'></div>
+</div>
+</div>
+</div>
+<!-- Section: Gastronomy -->
+<div class="flex flex-col gap-4 mb-12">
+<h2 class="text-white text-[28px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 border-l-4 border-primary ml-4">Gastronomy</h2>
+<!-- Card: Fine Dining (Right Text, Left Image) -->
+<div class="p-4">
+<div class="flex flex-col md:flex-row-reverse items-stretch justify-between gap-6 rounded-lg bg-surface-dark p-6 shadow-[0_0_4px_rgba(0,0,0,0.1)] hover:shadow-[0_0_15px_rgba(242,166,13,0.1)] transition-shadow duration-300">
+<div class="flex flex-[2_2_0px] flex-col justify-center gap-6">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined">restaurant</span>
+<span class="text-sm font-bold tracking-widest uppercase">Culinary Excellence</span>
+</div>
+<h3 class="text-white text-2xl font-bold leading-tight">Fine Dining Restaurants</h3>
+<p class="text-text-muted text-base font-normal leading-relaxed">
+                                        Embark on a culinary journey with our Michelin-starred chefs. Experience a fusion of local flavors and international techniques in an ambiance of sophisticated elegance.
+                                    </p>
+</div>
+<div class="flex gap-3">
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-[#493c22] hover:bg-[#5e4d2b] transition-colors text-white text-sm font-bold w-fit gap-2">
+<span>View Menus</span>
+</button>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 border border-[#493c22] hover:bg-[#493c22] transition-colors text-white text-sm font-bold w-fit gap-2">
+<span>Reserve Table</span>
+</button>
+</div>
+</div>
+<div class="w-full md:w-1/3 bg-center bg-no-repeat aspect-video md:aspect-auto bg-cover rounded-lg flex-1 min-h-[250px]" data-alt="Gourmet plated dish in a dimly lit fine dining restaurant" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDWSXpVMfjwUFUNdkoEPB9mwp4N6pmlu5d7pXxTqSyRwi24vtf-gbm9Z0PqUeXQnrwRxlmmVH0uP_k9xFWX4RFZO795SNTB8RFawoTgCQg7jboT0YdAbwoj9L-Uyv68f_l0qE5KtU5D-1xZUkROZIo3kansz1LW9UTWmSzrBr3KPR-vxHxGKhm265OnA69FXbNsZXnxCQsYivQKJr9a-zQfxgK23dhUH30BBzJ9kw2UIXmPxMugDkDT9lQJJn9_eiUvKd7xXpHt016k");'></div>
+</div>
+</div>
+</div>
+<!-- Section: Wellness & Leisure -->
+<div class="flex flex-col gap-4 mb-12">
+<h2 class="text-white text-[28px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 border-l-4 border-primary ml-4">Wellness &amp; Leisure</h2>
+<!-- Card: Rooftop Pool (Left Text, Right Image) -->
+<div class="p-4 mb-2">
+<div class="flex flex-col md:flex-row items-stretch justify-between gap-6 rounded-lg bg-surface-dark p-6 shadow-[0_0_4px_rgba(0,0,0,0.1)] hover:shadow-[0_0_15px_rgba(242,166,13,0.1)] transition-shadow duration-300">
+<div class="flex flex-[2_2_0px] flex-col justify-center gap-6">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined">pool</span>
+<span class="text-sm font-bold tracking-widest uppercase">Sky High Relaxation</span>
+</div>
+<h3 class="text-white text-2xl font-bold leading-tight">Rooftop Infinity Pool</h3>
+<p class="text-text-muted text-base font-normal leading-relaxed">
+                                        Float above the city skyline in our heated infinity pool. Enjoy signature cocktails from the poolside bar while watching the sunset over the urban horizon.
+                                    </p>
+</div>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-[#493c22] hover:bg-[#5e4d2b] transition-colors text-white text-sm font-bold w-fit gap-2 group">
+<span>Pool Hours &amp; Access</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="w-full md:w-1/3 bg-center bg-no-repeat aspect-video md:aspect-auto bg-cover rounded-lg flex-1 min-h-[250px]" data-alt="Rooftop infinity pool with city lights at night" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCjAfrdIcb119ZbgWs996LBRlkcx3D-r4RwDHcatgHyQv0WztTJyrWnnBexEjlaihT19KI5ZN5VL_UeBlzep25A2rac_WStj55Jis1uvEFowoIrtIz765PWQp5KjKA1wcb2S8tgCJnlX01jxn6ce_RAxn9hCGFcbdYjYWdPvhkwz4xKdhS2H8JimjsCC5P0J65XVMSVwsVYNnHiCkyAidcDVe2tG4tFlTN0JG3VWzJDulgHSExEEvl_e319NjLfK2rENjHDj5-eXi9q");'></div>
+</div>
+</div>
+<!-- Card: Spa (Right Text, Left Image) -->
+<div class="p-4">
+<div class="flex flex-col md:flex-row-reverse items-stretch justify-between gap-6 rounded-lg bg-surface-dark p-6 shadow-[0_0_4px_rgba(0,0,0,0.1)] hover:shadow-[0_0_15px_rgba(242,166,13,0.1)] transition-shadow duration-300">
+<div class="flex flex-[2_2_0px] flex-col justify-center gap-6">
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined">spa</span>
+<span class="text-sm font-bold tracking-widest uppercase">Rejuvenate</span>
+</div>
+<h3 class="text-white text-2xl font-bold leading-tight">World-Class Spa</h3>
+<p class="text-text-muted text-base font-normal leading-relaxed">
+                                        Escape to a sanctuary of peace. Our spa offers a comprehensive menu of treatments, including hydrotherapy, deep tissue massages, and organic facials.
+                                    </p>
+</div>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-[#493c22] hover:bg-[#5e4d2b] transition-colors text-white text-sm font-bold w-fit gap-2 group">
+<span>Book Treatment</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="w-full md:w-1/3 bg-center bg-no-repeat aspect-video md:aspect-auto bg-cover rounded-lg flex-1 min-h-[250px]" data-alt="Peaceful spa room with massage table and zen stones" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAfdY49WuE2x9ADkVSCdk1q7vq_98T5pYu8Ihul-BQB2dWqyTFMmOthS0qj_aXwkkd-SqkkdXlJQhI3-h0qsF9jFfGZYcz1xLOE30jZzFZy6_xYdpmgAmpek03kX3GLs4H0sVUcgrQV8Jnj_BeXxQPM2WerWXVfVocf193hPoDC6hfYMowwBUSpM7dhy49ug-bn59qxK_WjUgaUFpqfHc4GpwROb6R_RycddQVeLG1cKAXQGQbfPTy8WRhoYLldATHGL_DZe7opGkmc");'></div>
+</div>
+</div>
+</div>
+<!-- Additional Services Grid -->
+<div class="px-4 mb-16">
+<h3 class="text-white text-xl font-bold mb-6 text-center">More Amenities</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-surface-dark p-4 rounded-lg flex flex-col items-center gap-3 text-center hover:bg-surface-darker transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl">fitness_center</span>
+<span class="text-white font-medium text-sm">24/7 Gym</span>
+</div>
+<div class="bg-surface-dark p-4 rounded-lg flex flex-col items-center gap-3 text-center hover:bg-surface-darker transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl">local_parking</span>
+<span class="text-white font-medium text-sm">Valet Parking</span>
+</div>
+<div class="bg-surface-dark p-4 rounded-lg flex flex-col items-center gap-3 text-center hover:bg-surface-darker transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl">wifi</span>
+<span class="text-white font-medium text-sm">High-Speed Wi-Fi</span>
+</div>
+<div class="bg-surface-dark p-4 rounded-lg flex flex-col items-center gap-3 text-center hover:bg-surface-darker transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl">local_laundry_service</span>
+<span class="text-white font-medium text-sm">Laundry Service</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-surface-darker text-text-muted py-10 px-4 md:px-20 border-t border-[#493c22]">
+<div class="max-w-[960px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2 text-white">
+<span class="material-symbols-outlined text-primary">diamond</span>
+<span class="font-bold text-lg">Anslem Hotel</span>
+</div>
+<p class="text-sm">Experience the pinnacle of luxury and comfort in the heart of the city.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-white font-bold">Contact Us</h4>
+<div class="flex flex-col gap-2 text-sm">
+<p class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">location_on</span> okoafor,Badagry,Lagos-State, Nigeria</p>
+<p class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">call</span> +234 8068930145</p>
+<p class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">mail</span> ebukaemetuma@gmail.com</p>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-white font-bold">Stay Connected</h4>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-[#493c22] flex items-center justify-center hover:bg-primary hover:text-surface-darker transition-all" href="#">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+</a>
+<a class="w-10 h-10 rounded-full bg-[#493c22] flex items-center justify-center hover:bg-primary hover:text-surface-darker transition-all" href="#">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.85-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="max-w-[960px] mx-auto mt-8 pt-8 border-t border-[#493c22] text-center text-xs">
+                © 2023 Anslem hotel. All rights reserved.
+            </div>
+</footer>
+</div>
+</body></html>
